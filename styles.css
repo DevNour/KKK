@@ -1,0 +1,206 @@
+body {
+    background: rgb(63, 63, 63);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("images/Background.png");
+    background-size: 100%;
+    background-position: center;
+    padding: 15px;
+    height: 300px;
+    text-align: center;
+}
+
+.BeanRunnerHeader {
+    background-image: url("images/BeanRunner/BeanBackground.png");
+    background-size: 100%;
+    background-position: center;
+    padding: 15px;
+    height: 300px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .logo a {
+    background-image: url("images/Logov2.png");
+    background-size: 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    height: 95px;
+    position: relative;
+    text-indent: -999999999999999999px;
+    top: -38px;
+    width: 110px;
+
+}
+
+.VGButton {
+    background-color: rgb(160, 184, 223);
+    margin: auto;
+    font-size: larger;
+    font-family:monospace;
+    padding: 10px 0px 10px 25px;
+    box-shadow: gray 0px -2px 30px 1px;
+}
+
+.ViewGames {
+    box-shadow: gray 0px 8px 30px 2px;
+    background: rgb(140, 166, 209);
+    color: rgb(139, 223, 233);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ViewGames figure {
+    margin: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.ViewGames figure img {
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: gray 0 0 15px;
+    width: 200px;
+}
+
+.GamesSection {
+    box-shadow: gray 0px 8px 30px 2px;
+    background: rgb(140, 166, 209);
+    color: rgb(139, 223, 233);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    box-shadow: gray 0px -2px 30px 1px;
+}
+
+.GamesSection figure {
+    margin: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.GamesSection figure img {
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: gray 0 0 15px;
+    width: 200px;
+}
+
+.BeanRunnerCenter {
+    height: 1000px;
+    background: rgba(126, 164, 226, 0.849);
+    display: flex;
+    padding: 0px;
+}
+
+.BeanTxtFrame {
+    width: 810px;
+    padding: 20px;
+}
+
+.BeanTxt {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.brdownloaddiv {
+    padding: 20px 0 0 0;
+}
+
+.brdownload {
+    font-size: 20px;
+    color: chartreuse;
+}
+
+.bcont {
+    font-size: 15px;
+    padding: 20px 0 0 0;
+    color: aqua;
+}
+
+.BeanGall {
+    width: 360px;
+    height: 680px;
+    padding: 20px;
+}
+
+.AboutCenter {
+    box-shadow: black 0px 5px 30px 2px;
+    height: 500px;
+    background: rgba(126, 164, 226, 0.849);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px;
+}
+
+.HomeCenter {
+    height: 500px;
+    background: rgba(126, 164, 226, 0.849);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px;
+}
+
+.AboutText {
+    font-size: 80px;
+    padding: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 15px 0px 0px;
+    border-radius: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(139, 223, 233);
+}
+
+footer {
+    box-shadow: black 0px 5px 30px 2px;
+    background: black;
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.VG {
+    color: white;
+    font-size: 18px;
+}
+
+
+.Footerr {
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;  
+    text-align: left;
+}
